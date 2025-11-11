@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.VistaPrincipalController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="500.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="btnClientes" layoutX="32.0" layoutY="25.0" mnemonicParsing="false" onAction="#onClientes" prefHeight="26.0" prefWidth="136.0" text="Registrar Cliente" />
+            <Button fx:id="btnProductos" layoutX="32.0" layoutY="64.0" mnemonicParsing="false" onAction="#onProductos" prefHeight="26.0" prefWidth="136.0" text="Registrar Producto" />
+            <Button fx:id="btnVentas" layoutX="32.0" layoutY="104.0" mnemonicParsing="false" onAction="#onVentas" prefHeight="26.0" prefWidth="136.0" text="Registrar Venta" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" top="20.0" />
+         </padding>
+      </AnchorPane>
+      <AnchorPane fx:id="panelContenido" layoutX="206.0" prefHeight="500.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
